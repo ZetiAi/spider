@@ -31,7 +31,7 @@ These can be installed via `poetry` as detailed in the installation instructions
 2. Navigate to the cloned directory:
 
    ```bash
-   cd [directory]
+   cd spider
    ```
 
 3. Install dependencies using poetry:
