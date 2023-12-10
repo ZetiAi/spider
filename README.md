@@ -25,7 +25,7 @@ These can be installed via `poetry` as detailed in the installation instructions
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/ZetiAi/spiderƒ
+   git clone https://github.com/ZetiAi/spider
    ```
 
 2. Navigate to the cloned directory:
