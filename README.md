@@ -25,28 +25,28 @@ These can be installed via `poetry` as detailed in the installation instructions
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/ZetiAi/spider
+   git clone https://github.com/ZetiAi/spiderƒ
    ```
 
 2. Navigate to the cloned directory:
 
-   \```bash
+   ```bash
    cd [directory]
-   \```
+   ```
 
 3. Install dependencies using poetry:
 
-   \```bash
+   ```bash
    poetry install
-   \```
+   ```
 
 ## Usage
 
 To run the program, use the following command:
 
-\```bash
+```bash
 poetry run python command_line.py --url [start URL]
-\```
+```
 
 Replace `[start URL]` with the URL you want to start crawling from.
 
@@ -62,15 +62,15 @@ Replace `[start URL]` with the URL you want to start crawling from.
 
 The following command will remove all the HTML code from a directory into a `text_files/`
 
-\```bash
+```bash
 poetry run python filter.py 
-\```
+```
 
 The following command will concat all the files into a single file called `combined_text_files`
 
-\```bash
+```bash
 poetry run python join.py
-\```
+```
 
 ## Logging
 
