@@ -45,7 +45,7 @@ These can be installed via `poetry` as detailed in the installation instructions
 To run the program, use the following command:
 
 \```bash
-poetry run python crawler.py --url [start URL]
+poetry run python command_line.py --url [start URL]
 \```
 
 Replace `[start URL]` with the URL you want to start crawling from.
@@ -57,6 +57,20 @@ Replace `[start URL]` with the URL you want to start crawling from.
 3. **Crawling**: Begins crawling from the start URL, following links within the same domain.
 4. **Saving**: Saves the HTML of each visited page in a directory named `html_files`.
 5. **Respectful Crawling**: Includes a delay between requests and checks `robots.txt` for permissions.
+
+## Additional Features
+
+The following command will remove all the HTML code from a directory into a `text_files/`
+
+\```bash
+poetry run python filter.py 
+\```
+
+The following command will concat all the files into a single file called `combined_text_files`
+
+\```bash
+poetry run python join.py
+\```
 
 ## Logging
 
