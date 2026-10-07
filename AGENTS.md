@@ -4,7 +4,7 @@ An async command-line web crawler (aiohttp) that saves every HTML page under a s
 
 ## Deployment map
 
-**Status:** local-only tool, never deployed.
+**Status:** archived to the HDD 2026-10-06. local-only tool, never deployed.
 
 ```text
 poetry run python command_line.py --url <start> → aiohttp crawler → ./html_files
